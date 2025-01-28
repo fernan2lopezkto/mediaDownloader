@@ -1,0 +1,83 @@
+/* Estilos Dark Neon */
+body {
+  background-color: #1e1e2f;
+  color: #ffffff;
+}
+
+h1 {
+  color: #00ffcc;
+  text-shadow: 0 0 10px #00ffcc, 0 0 20px #00cc99;
+}
+
+.accordion-button {
+  background-color: #2b2b40;
+  color: #00ffcc;
+  border: none;
+  box-shadow: 0 0 5px #00ffcc;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #00cc99;
+  color: #000;
+  text-shadow: none;
+}
+
+.accordion-body {
+  background-color: #2b2b40;
+  color: #ffffff;
+  border: 1px solid #00ffcc;
+  border-radius: 5px;
+}
+
+input.form-control {
+  background-color: #2b2b40;
+  color: #ffffff;
+  border: 1px solid #00ffcc;
+}
+
+input.form-control::placeholder {
+  color: #8888aa;
+}
+
+button {
+  box-shadow: 0 0 10px #00ffcc;
+}
+
+button.btn-primary {
+  background-color: #00ffcc;
+  border: none;
+}
+
+button.btn-secondary {
+  background-color: #00cc99;
+  border: none;
+}
+
+button.btn-danger {
+  background-color: #ff0066;
+  border: none;
+}
+
+.btn-success {
+  background-color: #00cc99;
+  box-shadow: 0 0 10px #00cc99;
+}
+
+.text-black {
+  color: #ffffff !important;
+}
+
+.text-danger {
+  color: #ff0066 !important;
+}
+
+.footer {
+  text-shadow: 0 0 10px #00ffcc, 0 0 20px #00cc99;
+  margin-top: 20px;
+  color: #00ffcc;
+}
+
+.img-thumbnail {
+  width: 50px;
+  height: 50px;
+}

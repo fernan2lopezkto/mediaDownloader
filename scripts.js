@@ -87,7 +87,12 @@ async function fetchData(inputId, prefix) {
 
     const truncatedTitle = data.title ? data.title.substring(0, 30) : 'video';
     videoQuality.textContent = truncatedTitle;
-    downloadLink.href = data.links[1]?.link || '#';
+    if (prefix == 'short' || prefix == 'youtube') {
+      downloadLink.href = data.links[8]?.link || "#";
+    }
+    else {
+      downloadLink.href = data.links[1]?.link || "#";
+    }
     downloadLink.download = `${prefix}_${truncatedTitle}.mp4`;
 
     videoContainer.classList.remove('d-none');
